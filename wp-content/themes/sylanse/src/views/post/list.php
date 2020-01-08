@@ -13,7 +13,7 @@
                 <?php if (!empty($post["category"])): ?>
                     <p>Catégorie : <?php foreach ($post["category"] as $category) : ?><?= $category["name"] ?> <?php endforeach; ?></p>
                 <?php endif; ?>
-                <p><?= !empty($post["post_excerpt"]) ? mb_substr($post["post_excerpt"], 0, 100) . '...' : mb_substr($post["post_content"],0, 100) . '...'?></p>
+                <p><?= !empty($post["post_excerpt"]) ? mb_substr($post["post_excerpt"], 0, 100) . '...' : mb_substr(strip_tags($post["post_content"]),0, 100) . '...'?></p>
             </li>
         <?php endforeach; ?>
     </ul>
