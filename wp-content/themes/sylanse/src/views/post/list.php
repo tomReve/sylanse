@@ -1,5 +1,3 @@
-liste des articles
-
 <h1><?= $page["post_title"] ?></h1>
 <?php if(!empty($page["post_excerpt"])): ?>
     <p>Chapô : <?= $page["post_excerpt"] ?></p>
@@ -19,4 +17,8 @@ liste des articles
             </li>
         <?php endforeach; ?>
     </ul>
+<?php endif; ?>
+
+<?php if (!empty($pagination)): ?>
+    <p><?= $pagination ?></p>
 <?php endif; ?>

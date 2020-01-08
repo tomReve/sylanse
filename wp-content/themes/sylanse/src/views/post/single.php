@@ -1,4 +1,3 @@
-<?php var_dump($post) ?>
 <h1><?= $post["post_title"] ?></h1>
 <ul>
     <li>Date de publication : <?= date('d.m.Y',strtotime($post["post_date"]))?></li>
