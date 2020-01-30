@@ -20,13 +20,11 @@ function sylanse_home(){
                     "post_title" => $podArticle->display("post_title"),
                     "image" => get_the_post_thumbnail_url($podArticle->field('ID')),
                     "post_excerpt" => $podArticle->field('post_excerpt'),
-                    "post_content" => $podArticle->display("post_content"),
+                    "post_content" => $podArticle->field("post_content"),
                 ];
             }
         }
     }
-
-    var_dump($articles);
 
     $testimonies = [];
 
@@ -46,7 +44,8 @@ function sylanse_home(){
         }
     }
 
-    var_dump($testimonies);
-
-    render('page/home');
+    render('page/home', [
+        "articles" => $articles,
+        "testimonies" => $testimonies
+    ]);
 }
