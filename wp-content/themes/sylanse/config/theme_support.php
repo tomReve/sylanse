@@ -1,7 +1,8 @@
 <?php
 
 add_theme_support('post-thumbnails', [
-    'post'
+    'post',
+    'testimony'
 ]);
 
 add_theme_support('html5');

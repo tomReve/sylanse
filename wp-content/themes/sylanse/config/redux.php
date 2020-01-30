@@ -198,6 +198,92 @@ Redux::setSection( $opt_name, array(
     )
 ));
 
+Redux::setSection($opt_name, array(
+    'title'            => "Page d'accueil",
+    'id'               => 'accueil',
+    'desc'             => "Personnalisez votre page d'accueil",
+    'customizer_width' => '400px',
+    'icon'             => 'el el-home'
+));
+
+Redux::setSection($opt_name, array(
+    'title'            => "Articles",
+    'id'               => 'articles',
+    'subsection'       => true,
+    'customizer_width' => '450px',
+    'fields'           => array(
+        array(
+            'id'       => 'home-article-1',
+            'type'     => 'select',
+            'title'    => "Article n°1",
+            'data'     => "posts",
+            'args' => array(
+                'post_type' => "post",
+                'posts_per_page' => -1,
+                'orderby'        => 'post_title',
+                'order'          => 'ASC',
+            ),
+        ),
+        array(
+            'id'       => 'home-article-2',
+            'type'     => 'select',
+            'title'    => "Article n°2",
+            'data'     => "posts",
+            'args' => array(
+                'post_type' => "post",
+                'posts_per_page' => -1,
+                'orderby'        => 'post_title',
+                'order'          => 'ASC',
+            ),
+        ),
+    )
+));
+
+Redux::setSection($opt_name, array(
+    'title'            => "Témoignages",
+    'id'               => 'testimonies',
+    'subsection'       => true,
+    'customizer_width' => '450px',
+    'fields'           => array(
+        array(
+            'id'       => 'home-testimony-1',
+            'type'     => 'select',
+            'title'    => "Témoignage n°1",
+            'data'     => "posts",
+            'args' => array(
+                'post_type' => "testimony",
+                'posts_per_page' => -1,
+                'orderby'        => 'post_title',
+                'order'          => 'ASC',
+            ),
+        ),
+        array(
+            'id'       => 'home-testimony-2',
+            'type'     => 'select',
+            'title'    => "Témoignage n°2",
+            'data'     => "posts",
+            'args' => array(
+                'post_type' => "testimony",
+                'posts_per_page' => -1,
+                'orderby'        => 'post_title',
+                'order'          => 'ASC',
+            ),
+        ),
+        array(
+            'id'       => 'home-testimony-3',
+            'type'     => 'select',
+            'title'    => "Témoignage n°3",
+            'data'     => "posts",
+            'args' => array(
+                'post_type' => "testimony",
+                'posts_per_page' => -1,
+                'orderby'        => 'post_title',
+                'order'          => 'ASC',
+            ),
+        ),
+    )
+));
+
 add_action( 'redux/loaded', 'remove_demo' );
 
 if ( !function_exists( 'remove_demo' ) )
