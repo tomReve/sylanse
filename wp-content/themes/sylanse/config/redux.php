@@ -236,6 +236,18 @@ Redux::setSection($opt_name, array(
                 'order'          => 'ASC',
             ),
         ),
+        array(
+            'id'       => 'home-article-3',
+            'type'     => 'select',
+            'title'    => "Article n°3",
+            'data'     => "posts",
+            'args' => array(
+                'post_type' => "post",
+                'posts_per_page' => -1,
+                'orderby'        => 'post_title',
+                'order'          => 'ASC',
+            ),
+        ),
     )
 ));
 

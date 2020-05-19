@@ -23,4 +23,14 @@ add_action('wp', function() {
         add_action('sylanse_content', 'sylanse_post_list');
     } #/src/controllers/post.php
 
+    #Cours
+    if ( get_post_type() == 'cours' ) add_action('sylanse_content', 'sylanse_cours_single'); # /src/controllers/post
+    if ( get_post_type() == 'page' && get_the_ID() == 725){
+        remove_action('sylanse_content', 'sylanse_page_single');
+        add_action('sylanse_content', 'sylanse_cours_list');
+    } #/src/controllers/post.php
+
+    #Lecon
+    if ( get_post_type() == 'lecon' ) add_action('sylanse_content', 'sylanse_lecon_single'); # /src/controllers/post
+
 }, 1);

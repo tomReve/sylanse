@@ -2,7 +2,8 @@
 
 add_theme_support('post-thumbnails', [
     'post',
-    'testimony'
+    'testimony',
+    'cours'
 ]);
 
 add_theme_support('html5');

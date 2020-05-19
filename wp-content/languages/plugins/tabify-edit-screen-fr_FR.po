@@ -1,0 +1,166 @@
+# Translation of Stable (latest release) in French (France)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-08-04 09:47:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Tabify Edit Screen"
+msgstr "Tabify Edit Screen"
+
+#. Author URI of the plugin/theme
+msgid "https://codekitchen.eu"
+msgstr "https://codekitchen.eu"
+
+#. Plugin URI of the plugin/theme
+msgid "https://codekitchen.eu/products/tabify-edit-screen/"
+msgstr "https://codekitchen.eu/products/tabify-edit-screen/"
+
+#. Description of the plugin/theme
+msgid "Enables tabs in the edit screen and manage them from the back-end"
+msgstr "Ajoutez des onglets sur l'écran d'édition et gérez-les depuis l'interface d'administration de WordPress."
+
+#. Author of the plugin/theme
+msgid "Marko Heijnen"
+msgstr "Marko Heijnen"
+
+#: inc/settings-posttype.php:258
+msgid "Revisions"
+msgstr "Versions"
+
+#: inc/settings-posttype.php:254
+msgid "Author"
+msgstr "Auteurs"
+
+#: inc/settings-posttype.php:251
+msgid "Slug"
+msgstr "Code&nbsp;"
+
+#: inc/settings-posttype.php:244
+msgid "Discussion"
+msgstr "Discussion"
+
+#: inc/settings-posttype.php:248
+msgid "Comments"
+msgstr "Commentaires"
+
+#: inc/settings-posttype.php:238
+msgid "Custom Fields"
+msgstr "Champs personnalisés"
+
+#: inc/settings-posttype.php:234
+msgid "Send Trackbacks"
+msgstr "Envoyer des rétroliens"
+
+#: inc/settings-posttype.php:230
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: inc/settings-posttype.php:222
+msgid "Attributes"
+msgstr "Attributs"
+
+#: inc/settings-posttype.php:226
+msgid "Featured Image"
+msgstr "Image en avant"
+
+#: inc/settings-posttype.php:222
+msgid "Page Attributes"
+msgstr "Attributs de la page"
+
+#: inc/settings-posttype.php:193
+msgid "Metadata"
+msgstr "Métadonnées"
+
+#: inc/settings-posttype.php:200
+msgctxt "post format"
+msgid "Format"
+msgstr "Format"
+
+#: inc/settings-posttype.php:192
+msgid "Save"
+msgstr "Enregister"
+
+#: inc/settings-posttype.php:62
+msgid "Editor"
+msgstr "Rédacteur"
+
+#: inc/settings-page.php:46
+msgid "Move meta boxes to"
+msgstr "Déplacer les metaboxes vers"
+
+#: inc/settings-page.php:62
+msgid "Post types"
+msgstr "Types d'articles"
+
+#: inc/settings-posttype.php:58
+msgid "Title"
+msgstr "Titre :"
+
+#: inc/settings-page.php:25
+msgid "Tabify edit screen"
+msgstr "Tabify Edit Screen"
+
+#: inc/settings-page.php:35
+msgid "You do not have sufficient permissions to manage options for this site."
+msgstr "Vous n'avez pas les autorisations suffisantes pour gérer les options de ce site."
+
+#: inc/settings-page.php:45
+msgid "Cancel"
+msgstr "Annuler"
+
+#: inc/settings-base.php:66
+msgid "Show tabs in this post type."
+msgstr "Afficher les onglets pour ce type de contenu."
+
+#: inc/settings-base.php:92 inc/settings-base.php:183 inc/settings-page.php:110
+msgid "Choose title"
+msgstr "Choisir un titre"
+
+#: inc/settings-base.php:151
+msgid "Create a new tab"
+msgstr "Créer un nouvel onglet"
+
+#: inc/settings-base.php:168 inc/settings-page.php:44
+msgid "Remove"
+msgstr "Enlever"
+
+#: inc/settings-base.php:48
+msgid "Others"
+msgstr "Autres"
+
+#: inc/edit-screen.php:226
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: inc/edit-screen.php:222
+msgid "Submit for Review"
+msgstr "Soumettre pour examen"
+
+#: inc/edit-screen.php:218 inc/settings-posttype.php:196
+msgid "Publish"
+msgstr "Publié"
+
+#: features/permissions/permissions.php:27
+#: features/permissions/permissions.php:41
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: features/permissions/permissions.php:28
+#: features/permissions/permissions.php:38
+msgid "1 role"
+msgstr "1 rôle"
+
+#: features/permissions/permissions.php:29
+msgid "%s role"
+msgstr "%s rôle"
+
+#: inc/edit-screen.php:215
+msgid "Schedule"
+msgstr "Plannifier"

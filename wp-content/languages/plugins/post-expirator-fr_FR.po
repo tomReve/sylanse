@@ -1,0 +1,603 @@
+# Translation of Plugins - Post Expirator - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Post Expirator - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-05 12:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: fr_FR\n"
+"Project-Id-Version: Plugins - Post Expirator - Development (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-05 12:46+0000\n"
+"Last-Translator: admin_37878 <treversez@net-com.fr>\n"
+"Language-Team: Français\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: post-expirator.php:1645
+msgid "Unstick"
+msgstr "Ne plus épingler"
+
+#: post-expirator.php:1644
+msgid "Stick"
+msgstr "Épingler"
+
+#: post-expirator.php:1642
+msgid "Trash"
+msgstr "Corbeille"
+
+#: post-expirator.php:1211
+msgid ""
+"Enter a comma seperate list of emails that you would like to be notified "
+"when the post expires."
+msgstr ""
+"Saisissez une liste d’e-mails, séparés par des virgules, au(x)quel(s) nous "
+"pouvons vous notifier quand le contenu arrive à expiration."
+
+#: post-expirator.php:1054
+msgid ""
+"Enter a comma seperate list of emails that you would like to be notified "
+"when the post expires.  This will be applied to ALL post types.  You can set "
+"post type specific emails on the Defaults tab."
+msgstr ""
+"Saisissez une liste d’e-mails, séparés par des virgules, au(x)quel(s) nous "
+"pouvons vous notifier quand le contenu arrive à expiration. Cela "
+"s’appliquera à TOUS les types de contenu. Vous pouvez définir des e-mails "
+"spécifiques en fonction du type de contenu dans l’onglet Par défaut."
+
+#: post-expirator.php:1050 post-expirator.php:1207
+msgid "Who to notify:"
+msgstr "Personne à notifier :"
+
+#: post-expirator.php:1046
+msgid ""
+"This will include all users with the role of \"Administrator\" in the post "
+"expiration email."
+msgstr ""
+"Inclus tous les utilisateurs avec le rôle « Administrateur » dans l’e-mail "
+"informant de l’expiration d’un contenu."
+
+#: post-expirator.php:1040
+msgid "Include Blog Administrators?"
+msgstr "Inclure les Administrateurs du Blog ?"
+
+#: post-expirator.php:1036
+msgid ""
+"This will enable or disable the send of email notification on post "
+"expiration."
+msgstr ""
+"Cela activera ou désactivera l’envoi d’une notification par e-mail au moment "
+"de l’expiration d’un contenu."
+
+#: post-expirator.php:1030
+msgid "Enable Email Notification?"
+msgstr "Activer la notification par e-mail ?"
+
+#: post-expirator.php:1027
+msgid ""
+"Whenever a post expires, an email can be sent to alert users of the "
+"expiration."
+msgstr ""
+"Dès qu’un contenu arrive à expiration, un e-mail peut être envoyé pour "
+"informer les utilisateurs de l’expiration."
+
+#: post-expirator.php:1026
+msgid "Expiration Email Notification"
+msgstr "Notification e-mail de l’expiration"
+
+#: post-expirator.php:831
+msgid "[%s] %s"
+msgstr "[%s] %s"
+
+#: post-expirator.php:796
+msgid "Post Expiration Complete \"%s\""
+msgstr "Expiration du contenu \"%s\""
+
+#: post-expirator.php:761 post-expirator.php:780
+msgid ""
+"%s (%s) has expired at %s. The following post \"%s\" have now been removed: "
+"\"%s\". The full list of categories on the post are: \"%s\"."
+msgstr ""
+"%s (%s) a expiré à %s. La \"%s\" suivante a été retirée : \"%s\". La liste "
+"complète des catégories de la publication est : \"%s\"."
+
+#: post-expirator.php:725 post-expirator.php:737
+msgid ""
+"%s (%s) has expired at %s. The following post \"%s\" have now been added: "
+"\"%s\". The full list of categories on the post are: \"%s\"."
+msgstr ""
+"%s (%s) a expiré à %s. La \"%s\" suivante a été ajoutée : \"%s\". La liste "
+"complète des catégories de la publication est : \"%s\"."
+
+#: post-expirator.php:694 post-expirator.php:706
+msgid "%s (%s) has expired at %s. Post \"%s\" have now been set to \"%s\"."
+msgstr ""
+"%s (%s) a expiré à %s. Le statut \"%s\" de la publication a été défini à "
+"\"%s\"."
+
+#: post-expirator.php:685
+msgid ""
+"%s (%s) has expired at %s. Post \"%s\" status has been successfully removed."
+msgstr ""
+"%s (%s) a expiré à %s. L'état \"%s\" de la publication a été retiré avec "
+"succès."
+
+#: post-expirator.php:678
+msgid ""
+"%s (%s) has expired at %s. Post \"%s\" status has been successfully set."
+msgstr ""
+"%s (%s) a expiré à %s. L'état \"%s\" de la publication a été défini avec "
+"succès."
+
+#: post-expirator.php:650 post-expirator.php:657 post-expirator.php:664
+#: post-expirator.php:671
+msgid ""
+"%s (%s) has expired at %s. Post status has been successfully changed to "
+"\"%s\"."
+msgstr ""
+"%s (%s) a expiré à %s. L’état de la publication a bien été changé en \"%s\"."
+
+#: post-expirator.php:205
+msgid ""
+"Post Expirator: Will only update expiration date if already configured on "
+"post."
+msgstr ""
+"Post Expirator : ne mettra à jour la date d’expiration que si elle a déjà "
+"été configurée au niveau de la publication."
+
+#. Author URI of the plugin
+msgid "http://postexpirator.tuxdocs.net/"
+msgstr "http://postexpirator.tuxdocs.net/ "
+
+#. Author of the plugin
+msgid "Aaron Axelsen"
+msgstr "Aaron Axelsen"
+
+#. Description of the plugin
+msgid ""
+"Allows you to add an expiration date (minute) to posts which you can "
+"configure to either delete the post, change it to a draft, or update the "
+"post categories at expiration time."
+msgstr ""
+"Autorise l’ajout à vos publications d’une date d'expiration (à la minute "
+"près) que vous pouvez configurer pour soit supprimer la publication, la "
+"mettre en brouillon ou mettre à jour les catégories au moment de "
+"l’expiration."
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/extend/plugins/post-expirator/"
+msgstr "http://wordpress.org/extend/plugins/post-expirator/"
+
+#: post-expirator.php:1649
+msgid "Category: Remove"
+msgstr "Catégorie : Retirer"
+
+#: post-expirator.php:1648
+msgid "Category: Add"
+msgstr "Catégorie : Ajouter"
+
+#: post-expirator.php:1647
+msgid "Category: Replace"
+msgstr "Catégorie : Remplacer"
+
+#: post-expirator.php:1643
+msgid "Private"
+msgstr "Privé"
+
+#: post-expirator.php:1641
+msgid "Delete"
+msgstr "Supprimer"
+
+#: post-expirator.php:1640
+msgid "Draft"
+msgstr "Brouillon"
+
+#: post-expirator.php:1341
+msgid ""
+"Below is a dump of the debugging table, this should be useful for "
+"troubleshooting."
+msgstr ""
+"Ci-dessous une extraction de la table de débogage, cela devrait vous aider."
+
+#: post-expirator.php:1320
+msgid "Single Event"
+msgstr "Évènement unique"
+
+#: post-expirator.php:1295
+msgid "Arguments / Schedule"
+msgstr ""
+
+#: post-expirator.php:1294
+msgid "Event"
+msgstr "Événement"
+
+#: post-expirator.php:1293
+msgid "Date"
+msgstr "Date"
+
+#: post-expirator.php:1290
+msgid ""
+"The below table will show all currently scheduled cron events with the next "
+"run time."
+msgstr ""
+
+#: post-expirator.php:1288
+msgid "Current Cron Schedule:"
+msgstr ""
+
+#: post-expirator.php:1282
+msgid "ENABLED - OK"
+msgstr "ACTIVÉ - OK"
+
+#: post-expirator.php:1280
+msgid "DISABLED"
+msgstr "DÉSACTIVÉ"
+
+#: post-expirator.php:1276
+msgid "WP-Cron Status:"
+msgstr "État de WP-Cron :"
+
+#: post-expirator.php:1272
+msgid "Purge Debug Log"
+msgstr ""
+
+#: post-expirator.php:1270
+msgid "Purge Debug Log:"
+msgstr ""
+
+#: post-expirator.php:1262
+msgid "Enable Debugging"
+msgstr "Activer le débogage"
+
+#: post-expirator.php:1261
+msgid "Status: Disabled"
+msgstr "État : Désactivé"
+
+#: post-expirator.php:1259
+msgid "Disable Debugging"
+msgstr "Désactiver le débogage"
+
+#: post-expirator.php:1258
+msgid "Status: Enabled"
+msgstr "État : activé"
+
+#: post-expirator.php:1254
+msgid "Post Expirator Debug Logging:"
+msgstr ""
+
+#: post-expirator.php:1251
+msgid "Advanced Diagnostics"
+msgstr "Diagnostics avancés"
+
+#: post-expirator.php:1243
+msgid "Debugging Table Emptied"
+msgstr ""
+
+#: post-expirator.php:1238
+msgid "Debugging Enabled"
+msgstr ""
+
+#: post-expirator.php:1235
+msgid "Debugging Disabled"
+msgstr ""
+
+#: post-expirator.php:1678
+msgid ""
+"Select the hierarchical taxonomy to be used for \"category\" based "
+"expiration."
+msgstr ""
+
+#: post-expirator.php:1201
+msgid "Taxonomy (hierarchical):"
+msgstr ""
+
+#: post-expirator.php:1197
+msgid "Select whether the post expirator is enabled for all new posts."
+msgstr ""
+
+#: post-expirator.php:1191
+msgid "Auto-Enable?"
+msgstr ""
+
+#: post-expirator.php:1187
+msgid "Select the default expire action for the post type."
+msgstr ""
+
+#: post-expirator.php:1182
+msgid "How to expire:"
+msgstr "Etat du contenu après expiration:"
+
+#: post-expirator.php:1178
+msgid ""
+"Select whether the post expirator meta box is active for this post type."
+msgstr ""
+
+#: post-expirator.php:1176
+msgid "Inactive"
+msgstr "Inactif"
+
+#: post-expirator.php:1174
+msgid "Active"
+msgstr "Actif"
+
+#: post-expirator.php:1172
+msgid "Active:"
+msgstr ""
+
+#: post-expirator.php:1145
+msgid ""
+"Use the values below to set the default actions/values to be used for each "
+"for the corresponding post types.  These values can all be overwritten when "
+"creating/editing the post/page."
+msgstr ""
+
+#: post-expirator.php:1143
+msgid "Default Expiration Values"
+msgstr ""
+
+#: post-expirator.php:1096 post-expirator.php:1221
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: post-expirator.php:1091
+msgid "The inline css which will be used to style the footer text."
+msgstr ""
+
+#: post-expirator.php:1089
+msgid "This post will expire on"
+msgstr ""
+
+#: post-expirator.php:1086
+msgid "Footer Style:"
+msgstr ""
+
+#: post-expirator.php:1077
+msgid ""
+"Enter the text you would like to appear at the bottom of every post that "
+"will expire.  The following placeholders will be replaced with the post "
+"expiration date in the following format:"
+msgstr ""
+
+#: post-expirator.php:1073
+msgid "Footer Contents:"
+msgstr ""
+
+#: post-expirator.php:1069
+msgid ""
+"This will enable or disable displaying the post expiration date in the post "
+"footer."
+msgstr ""
+
+#: post-expirator.php:1034 post-expirator.php:1044 post-expirator.php:1067
+#: post-expirator.php:1195
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: post-expirator.php:1032 post-expirator.php:1042 post-expirator.php:1065
+#: post-expirator.php:1193
+msgid "Enabled"
+msgstr "Activé"
+
+#: post-expirator.php:1063
+msgid "Show in post footer?"
+msgstr ""
+
+#: post-expirator.php:1060
+msgid ""
+"Enabling this below will display the expiration date automatically at the "
+"end of any post which is set to expire."
+msgstr ""
+
+#: post-expirator.php:1059
+msgid "Post Footer Display"
+msgstr ""
+
+#: post-expirator.php:1021
+msgid "Set's the default expiration category for the post."
+msgstr ""
+
+#: post-expirator.php:1010
+msgid "Default Expiration Category"
+msgstr ""
+
+#: post-expirator.php:1007
+msgid "Category Expiration"
+msgstr ""
+
+#: post-expirator.php:1002
+msgid ""
+"Set the custom value to use for the default expiration date.  For "
+"information on formatting, see <a href=\"http://php.net/manual/en/function."
+"strtotime.php\">PHP strtotime function</a>. For example, you could enter "
+"\"+1 month\" or \"+1 week 2 days 4 hours 2 seconds\" or \"next Thursday.\""
+msgstr ""
+
+#: post-expirator.php:997
+msgid ""
+"Set the default expiration date to be used when creating new posts and pages."
+"  Defaults to none."
+msgstr ""
+
+#: post-expirator.php:994
+msgid "Post/Page Publish Time"
+msgstr ""
+
+#: post-expirator.php:993
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: post-expirator.php:992
+msgid "None"
+msgstr "Aucun"
+
+#: post-expirator.php:989
+msgid "Default Date/Time Duration:"
+msgstr ""
+
+#: post-expirator.php:985
+msgid ""
+"The default format to use when displaying the expiration time within a post "
+"using the [postexpirator] shortcode or within the footer.  For information "
+"on valid formatting options, see: <a href=\"http://us2.php."
+"net/manual/en/function.date.php\" target=\"_blank\">PHP Date Function</a>."
+msgstr ""
+
+#: post-expirator.php:981
+msgid "Time Format:"
+msgstr "Format de l’heure&nbsp;:"
+
+#: post-expirator.php:977
+msgid ""
+"The default format to use when displaying the expiration date within a post "
+"using the [postexpirator] shortcode or within the footer.  For information "
+"on valid formatting options, see: <a href=\"http://us2.php."
+"net/manual/en/function.date.php\" target=\"_blank\">PHP Date Function</a>."
+msgstr ""
+
+#: post-expirator.php:973
+msgid "Date Format:"
+msgstr "Format de la date :"
+
+#: post-expirator.php:965
+msgid ""
+"timeformat - format set here will override the value set on the settings page"
+msgstr ""
+
+#: post-expirator.php:964
+msgid ""
+"dateformat - format set here will override the value set on the settings page"
+msgstr ""
+
+#: post-expirator.php:963
+msgid "type - defaults to full - valid options are full,date,time"
+msgstr ""
+
+#: post-expirator.php:961
+msgid "Valid [postexpirator] attributes:"
+msgstr ""
+
+#: post-expirator.php:958
+msgid ""
+"The post expirator plugin sets a custom meta value, and then optionally "
+"allows you to select if you want the post changed to a draft status or "
+"deleted when it expires."
+msgstr ""
+
+#: post-expirator.php:917 post-expirator.php:1135
+msgid "Saved Options!"
+msgstr "Options enregistrées !"
+
+#: post-expirator.php:870 post-expirator.php:889
+msgid "Post Expirator Options"
+msgstr "Options de Post Expirator"
+
+#: post-expirator.php:859
+msgid "View Debug Logs"
+msgstr ""
+
+#: post-expirator.php:858
+msgid "Diagnostics"
+msgstr "Diagnostics"
+
+#: post-expirator.php:857 post-expirator.php:970
+msgid "Defaults"
+msgstr "Valeurs par défaut"
+
+#: post-expirator.php:856
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: post-expirator.php:415
+msgid "Taxonomy Name"
+msgstr "Nom de la taxonomie"
+
+#: post-expirator.php:405
+msgid ""
+"More than 1 heirachical taxonomy detected.  You must assign a default "
+"taxonomy on the settings screen."
+msgstr ""
+
+#: post-expirator.php:403
+msgid ""
+"You must assign a heirarchical taxonomy to this post type to use this "
+"feature."
+msgstr ""
+
+#: post-expirator.php:394
+msgid "Expiration Categories"
+msgstr ""
+
+#: post-expirator.php:383
+msgid "How to expire"
+msgstr "Etat du contenu après expiration"
+
+#: post-expirator.php:363
+msgid "Minute"
+msgstr "Minute"
+
+#: post-expirator.php:362
+msgid "Hour"
+msgstr "Heure"
+
+#: post-expirator.php:330
+msgid "Day"
+msgstr "Jour"
+
+#: post-expirator.php:329
+msgid "Month"
+msgstr "Mois"
+
+#: post-expirator.php:328
+msgid "Year"
+msgstr "Année"
+
+#: post-expirator.php:325
+msgid "The published date/time will be used as the expiration value"
+msgstr ""
+
+#: post-expirator.php:322
+msgid "Enable Post Expiration"
+msgstr "Autoriser l’expiration de ce contenu"
+
+#. Plugin Name of the plugin
+#: post-expirator.php:252 post-expirator.php:889
+msgid "Post Expirator"
+msgstr "Expiration"
+
+#: post-expirator.php:124
+msgid "Never"
+msgstr "Jamais"
+
+#: post-expirator.php:61 post-expirator.php:109
+msgid "Expires"
+msgstr "Expire"
+
+#: post-expirator.php:34
+msgid "Settings"
+msgstr "Réglages"
+
+#: post-expirator.php:23
+msgid "Post expires at EXPIRATIONTIME on EXPIRATIONDATE"
+msgstr "Expire à EXPIRATIONTIME, le EXPIRATIONDATE"
+
+#: post-expirator.php:22
+msgid "g:ia"
+msgstr "G:i"
+
+#: post-expirator.php:21
+msgid "l F jS, Y"
+msgstr "l j F Y"
+
+#: post-expirator-debug.php:52
+msgid "Message"
+msgstr "Message"
+
+#: post-expirator-debug.php:51
+msgid "Timestamp"
+msgstr "Horodatage"
+
+#: post-expirator-debug.php:47
+msgid "Debugging table is currently empty."
+msgstr "La table de débogage est actuellement vide."

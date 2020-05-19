@@ -1,6 +1,9 @@
 <?php
 
 function sylanse_header() {
+    global $REDUX;
 
-    render('header');
+    render('header', [
+        'redux' => $REDUX
+    ]);
 }
