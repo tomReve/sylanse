@@ -1,6 +1,8 @@
 <?php
 
 function sylanse_page_single() {
+    global $REDUX;
+
     render('page/single');
 }
 
@@ -35,7 +37,7 @@ function sylanse_home(){
                     "post_title" => $podTestimony->display("post_title"),
                     "image" => get_the_post_thumbnail_url($podTestimony->field('ID'), 'liste-testimony-home'),
                     "post_excerpt" => $podTestimony->field('post_excerpt'),
-                    "age" => $podTestimony->field('age'),
+                    "post_date" => $podTestimony->field('post_date'),
                     "note" => $podTestimony->field('note'),
                 ];
             }
@@ -43,6 +45,7 @@ function sylanse_home(){
     }
 
     render('page/home', [
+        'redux' => $REDUX,
         "articles" => $articles,
         "testimonies" => $testimonies
     ]);

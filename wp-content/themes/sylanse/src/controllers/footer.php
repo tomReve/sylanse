@@ -1,5 +1,8 @@
 <?php
 
 function sylanse_footer() {
-    render('footer');
+    global $REDUX;
+    render('footer', [
+        'redux' => $REDUX
+    ]);
 }

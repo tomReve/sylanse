@@ -2,37 +2,6 @@
 
 class sylanseWalker extends Walker_Nav_Menu
 {
-
-    public function start_lvl(&$output, $depth = 0, $args = array())
-    {
-        switch ($depth) {
-            case 0:
-                $output .= '<ul class="conteneur-niveau-2">';
-                break;
-            case 1:
-                $output .= '<ul class="conteneur-niveau-3">';
-                break;
-            default:
-                $output .= '';
-                break;
-        }
-    }
-
-    public function end_lvl(&$output, $depth = 0, $args = array())
-    {
-        switch ($depth) {
-            case 0:
-                $output .= "</ul>";
-                break;
-            case 1:
-                $output .= "</ul>";
-                break;
-            default:
-                $output .= "";
-                break;
-        }
-    }
-
     public function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0)
     {
         $atts = array();
@@ -62,58 +31,14 @@ class sylanseWalker extends Walker_Nav_Menu
         }
         switch ($depth) {
             case 0:
-                $classes = "niveau-1";
-                $item_output = '<span class="titre-niveau-1">
-                                    '.$title.'
-                                </span>
-                                <div class="dropdown">
-                                    <div class="container">
-                                        <strong class="parent">'.$title.'</strong>';
-                break;
-            case 1:
-                $classes = "niveau-2";
-                $item_output = '<a href="'.$atts["href"].'" title="Accéder à la page '.$title.'" class="titre-niveau-2">
-                                    '.$title.'
-                                </a>
-                                <button class="btn-dropdown">
-                                    <i class="fas fa-plus"></i>
-                                </button>
-                                <div class="dropdown-niveau-2">
-                                    <div class="container">
-                                        <strong class="parent">'.$title.'</strong>';
-                break;
-            case 2:
-                $classes = "niveau-3";
-                $item_output = '<a href="'.$atts["href"].'" title="Accéder à la page '.$title.'" class="titre-niveau-3">
+                $item_output = '<a href="'.$atts["href"].'">
                                     '.$title.'
                                 </a>';
                 break;
-            default:
-                $classes = "";
-                $item_output = '';
-                break;
         }
 
-        $output .= '<li class="' . $classes . '">';
+        $output .= '';
 
         $output .= apply_filters('walker_nav_menu_start_el', $item_output, $item, $depth, $args);
-    }
-
-    public function end_el(&$output, $item, $depth = 0, $args = array())
-    {
-        switch ($depth) {
-            case 0:
-                $output .= "</div></div></li>";
-                break;
-            case 1:
-                $output .= "</div></div></li>";
-                break;
-            case 2:
-                $output .= "</li>";
-                break;
-            default:
-                $output .= "</li>";
-        }
-
     }
 }

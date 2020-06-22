@@ -191,9 +191,9 @@ Redux::setSection( $opt_name, array(
     'customizer_width' => '450px',
     'fields'           => array(
         array(
-            'id'       => 'adresse1',
-            'type'     => 'text',
-            'title'    => "Adresse",
+            'id'       => 'logo-footer',
+            'type'     => 'media',
+            'title'    => "Logo du footer",
         ),
     )
 ));
@@ -204,6 +204,30 @@ Redux::setSection($opt_name, array(
     'desc'             => "Personnalisez votre page d'accueil",
     'customizer_width' => '400px',
     'icon'             => 'el el-home'
+));
+
+Redux::setSection( $opt_name, array(
+    'title'            => "Call To Action",
+    'id'               => 'home-cta',
+    'subsection'       => true,
+    'customizer_width' => '450px',
+    'fields'           => array(
+        array(
+            'id'       => 'image-cta',
+            'type'     => 'media',
+            'title'    => "Image du bloc Call To Action",
+        ),
+        array(
+            'id'       => 'titre-cta',
+            'type'     => 'text',
+            'title'    => "Titre du bloc Call To Action",
+        ),
+        array(
+            'id'       => 'description-cta',
+            'type'     => 'textarea',
+            'title'    => "Contenu du bloc Call To Action",
+        ),
+    )
 ));
 
 Redux::setSection($opt_name, array(
