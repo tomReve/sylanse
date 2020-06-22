@@ -28,7 +28,7 @@ function sylanse_post_list() {
                 'post_date' => $podsPosts->field('post_date'),
                 'image' => get_the_post_thumbnail_url($podsPosts->field('ID'), 'liste-item'),
                 'post_content' => $podsPosts->field('post_content'),
-                'category' => $podsPosts->field('category')
+                'category' => $podsPosts->display('category')
             ];
         }
     }
@@ -63,7 +63,7 @@ function sylanse_post_single() {
             'image' => get_the_post_thumbnail_url($pod->field('ID'), 'detail-item'),
             'post_content' => $pod->display('post_content'),
             'post_excerpt' => $pod->field('post_excerpt'),
-            'category' => $pod->field('category')
+            'category' => $pod->display('category')
         ];
     }
 
