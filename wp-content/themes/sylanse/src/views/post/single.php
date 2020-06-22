@@ -1,19 +1,24 @@
-<section class="container">
+<section id="det_article">
     <h1><?= $post["post_title"] ?></h1>
-    <ul>
-        <li>Date de publication : <?= date('d.m.Y',strtotime($post["post_date"]))?></li>
+    <?php if(!empty($post["category"])): ?>
+        <p class="categorie"><?= $post['category'] ?></p>
+    <?php endif; ?>
+    <div class="content">
         <?php if (!empty($post["image"])): ?>
-            <li><img src="<?= $post["image"] ?>" alt="illustration article"></li>
+            <img src="<?= $post["image"] ?>" alt="illustration article">
         <?php endif; ?>
-        <?php if(!empty($post["category"])): ?>
-            <li>
-                Catégorie : <?php foreach ($post["category"] as $category) : ?><?= $category["name"] ?> <?php endforeach; ?>
-            </li>
-        <?php endif; ?>
-        <?php if($post["post_excerpt"]): ?>
-            <li>Chapô : <?= $post["post_excerpt"] ?></li>
-        <?php endif; ?>
-        <li><?= $post["post_content"] ?></li>
-    </ul>
+        <div>
+            <?= $post["post_content"] ?>
+        </div>
+    </div>
+    <div class="preview">
+        <img src="<?= get_stylesheet_directory_uri().'/assets/img/home-cta-image.png' ?>" alt="home-cta-image">
+        <div>
+            <h3>Vous voulez en voir plus ? N'attendez plus !</h3>
+            <p>Allez-y, consultez les cours ! Accédez au prochain à toutes mes leçons et former vous à l'administration réseau.</p>
+            <br>
+            <a href="<?= get_permalink(725) ?>" style="color:black;">> J'accède aux cours</a>
+        </div>
+    </div>
 </section>
 
