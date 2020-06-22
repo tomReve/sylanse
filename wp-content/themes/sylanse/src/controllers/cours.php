@@ -21,6 +21,7 @@ function sylanse_cours_list(){
                 'post_title' => $pods->field('post_title'),
                 'post_content' => $pods->field('post_content'),
                 'image' => get_the_post_thumbnail_url($pods->field('ID'), 'liste-item'),
+                'cat_cours' => $pods->display('cat_cours')
             ];
         }
     }
