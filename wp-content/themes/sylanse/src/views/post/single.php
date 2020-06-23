@@ -7,7 +7,6 @@
         <p class="categorie"><?= $post['category'] ?></p>
     <?php endif; ?>
     <div class="content">
-        
         <div>
             <?= $post["post_content"] ?>
         </div>

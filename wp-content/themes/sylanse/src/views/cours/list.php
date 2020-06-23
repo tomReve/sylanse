@@ -5,7 +5,7 @@
         <div class="recommandations">
             <?php foreach ($cours as $id => $item): ?>
                 <article class="reco">
-                    <img src="<?= !empty($item['image']) ? $item['item'] : get_stylesheet_directory_uri().'/assets/img/placeholder.png' ?>" alt="<?= $item['post_title'] ?>">
+                    <img src="<?= !empty($item['image']) ? $item['image'] : get_stylesheet_directory_uri().'/assets/img/placeholder.png' ?>" alt="<?= $item['post_title'] ?>">
                     <div>
                         <?php if (!empty($item['cat_cours'])) : ?>
                             <h4><?= $item['cat_cours'] ?></h4>

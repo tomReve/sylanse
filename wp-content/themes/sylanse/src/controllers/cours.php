@@ -41,7 +41,10 @@ function sylanse_cours_single(){
             'post_title' => $pod->field('post_title'),
             'post_content' => $pod->field('post_content'),
             'image' => get_the_post_thumbnail_url($pod->field('ID'), 'detail-item'),
-            'lecons' => $pod->field('lecons')
+            'lecons' => $pod->field('lecons'),
+            'cat_cours' => $pod->display('cat_cours'),
+            'difficulte' => $pod->display('difficulte'),
+            'duree' => $pod->display('duree')
         ];
     }
 
