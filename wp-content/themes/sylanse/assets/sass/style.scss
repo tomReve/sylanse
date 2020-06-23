@@ -72,6 +72,12 @@ h2 {
     font-size: 1.3em;
     margin-bottom: 2.2em;
 }
+.head_article {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
 #home {
     width: calc(100% - 50px);
     max-width: 1080px;

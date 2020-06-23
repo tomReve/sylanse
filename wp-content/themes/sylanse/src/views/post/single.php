@@ -1,4 +1,7 @@
 <section id="det_article">
+<?php if (!empty($post["image"])): ?>
+            <img class="head_article" src="<?= $post["image"] ?>" alt="illustration article">
+        <?php endif; ?>
     <h1><?= $post["post_title"] ?></h1>
     <?php if(!empty($post["category"])): ?>
         <p class="categorie"><?= $post['category'] ?></p>
