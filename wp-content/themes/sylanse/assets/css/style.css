@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 /* line 2, ../sass/style.scss */
+blockquote {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 6, ../sass/style.scss */
 html, body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
-/* qzd */
-/* line 8, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 nav {
   display: flex;
   margin: 0 auto;
@@ -17,17 +22,17 @@ nav {
   margin-top: 30px;
   align-items: center;
 }
-/* line 16, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 nav img {
   height: 60px;
 }
-/* line 20, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 nav div a {
   color: black;
   text-decoration: none;
   margin-left: 50px;
 }
-/* line 25, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 nav div .login {
   color: white;
   background-color: black;
@@ -35,7 +40,7 @@ nav div .login {
   padding: .6em 1.3em;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 footer {
   background-color: #111;
   display: flex;
@@ -43,30 +48,28 @@ footer {
   align-items: center;
   padding: 40px;
 }
-/* line 39, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 footer img {
   height: 60px;
 }
-/* line 42, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 footer section {
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
+  width: 40%;
 }
-/* line 46, ../sass/style.scss */
-footer div {
-  width: 250px;
-}
-/* line 48, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 footer div p {
   color: #777;
   margin: 0;
   margin-bottom: 15px;
 }
-/* line 53, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 footer div h2 {
   color: white;
 }
-/* line 56, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 footer div a {
   color: white;
   text-decoration: none;
@@ -74,131 +77,139 @@ footer div a {
   padding-bottom: 5px;
 }
 
-/* line 64, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 h2 {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0;
   font-size: 1.3em;
-  margin-bottom: 15px;
+  margin-bottom: 2.2em;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 #home {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 75, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 #home .intro {
   display: flex;
   align-items: center;
   height: 90vh;
 }
-/* line 79, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 #home .intro img, #home .intro div {
   width: 50%;
 }
-/* line 82, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 #home .intro h1 {
   font-size: 3em;
 }
 
-/* line 87, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #det_article {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 91, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 #det_article h1 {
   font-size: 2.2em;
 }
-/* line 94, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 #det_article .content {
   display: flex;
 }
-/* line 96, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 #det_article .content img {
   width: 300px;
 }
-/* line 99, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 #det_article .content p {
   width: 100%;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 #liste_articles {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 105, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 #liste_articles h2 {
   font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
-/* line 111, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 #liste_articles hr {
   margin: 0 0 40px 0;
 }
 
-/* line 115, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 #liste_cours {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 118, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 #liste_cours h2 {
   font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
-/* line 124, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 #liste_cours hr {
   margin: 0 0 40px 0;
 }
-/* line 127, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 #liste_cours img {
   width: 200px;
 }
-/* line 130, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 #liste_cours h4 {
   margin-bottom: 5px;
 }
 
-/* line 134, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .articles {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+/* line 146, ../sass/style.scss */
+.articles .card {
+  margin-bottom: 40px;
+}
 
-/* line 139, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .card {
   width: calc(33% - 20px);
 }
-/* line 141, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .card img {
   width: 100%;
-  height: 150px;
-  object-fit: fill;
+  height: 200px;
+  object-fit: cover;
 }
-/* line 146, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .card h3 {
   font-weight: 100;
   margin: 0;
   font-size: .8em;
 }
-/* line 151, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .card h4 {
   margin: 10px 0;
   font-size: 1.2em;
 }
-/* line 155, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .card a {
   color: black;
 }
 
-/* line 159, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 hr {
   height: 1px;
   background-color: black;
@@ -207,50 +218,51 @@ hr {
   margin-top: 80px;
 }
 
-/* line 169, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .reco {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 20px;
 }
-/* line 173, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .reco img {
-  width: 90px;
-  height: 170px;
-  object-fit: fill;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
 }
-/* line 178, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .reco div {
-  margin-left: 15px;
+  margin-left: 30px;
 }
-/* line 180, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .reco div h3 {
   margin: 0;
 }
-/* line 183, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .reco div h4 {
   font-weight: 100;
   font-size: .8em;
   margin: 0;
 }
 
-/* line 190, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .preview {
   display: flex;
   background-color: #EEE;
   margin: 70px 0;
 }
-/* line 194, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .preview img {
   height: 100%;
   width: 300px;
   object-fit: fill;
 }
-/* line 199, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .preview div {
   padding: 20px 40px;
 }
-/* line 201, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .preview div h3 {
   font-size: 1.5em;
 }

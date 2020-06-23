@@ -4,9 +4,7 @@
         <p class="categorie"><?= $post['category'] ?></p>
     <?php endif; ?>
     <div class="content">
-        <?php if (!empty($post["image"])): ?>
-            <img src="<?= $post["image"] ?>" alt="illustration article">
-        <?php endif; ?>
+        
         <div>
             <?= $post["post_content"] ?>
         </div>
