@@ -90,132 +90,134 @@ h2 {
 .head_article {
   margin-top: 50px;
   width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 
-/* line 79, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 #home {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 83, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 #home .intro {
   display: flex;
   align-items: center;
   height: 90vh;
 }
-/* line 87, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 #home .intro img, #home .intro div {
   width: 50%;
 }
-/* line 90, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 #home .intro h1 {
   font-size: 3em;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 #det_article {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 99, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 #det_article h1 {
   font-size: 2.2em;
 }
-/* line 102, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 #det_article .content {
   display: flex;
 }
-/* line 104, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 #det_article .content img {
   width: 300px;
 }
-/* line 107, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 #det_article .content p {
   width: 100%;
 }
 
-/* line 112, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 #liste_articles {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 113, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 #liste_articles h2 {
   font-size: 2em;
   margin-top: 2em;
   margin-bottom: 1em;
 }
-/* line 121, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 #liste_articles hr {
   margin: 0 0 40px 0;
 }
 
-/* line 125, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 #liste_cours {
   width: calc(100% - 50px);
   max-width: 1080px;
   margin: 0 auto;
 }
-/* line 128, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 #liste_cours h2 {
   font-size: 2em;
   margin-top: 2em;
   margin-bottom: 1em;
 }
-/* line 136, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 #liste_cours hr {
   margin: 0 0 40px 0;
 }
-/* line 139, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 #liste_cours img {
   width: 200px;
 }
-/* line 142, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 #liste_cours h4 {
   margin-bottom: 5px;
 }
 
-/* line 146, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .articles {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 150, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .articles .card {
   margin-bottom: 40px;
 }
 
-/* line 154, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .card {
   width: calc(33% - 20px);
 }
-/* line 156, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
-/* line 161, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .card h3 {
   font-weight: 100;
   margin: 0;
   font-size: .8em;
 }
-/* line 166, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .card h4 {
   margin: 10px 0;
   font-size: 1.2em;
 }
-/* line 170, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .card a {
   color: black;
 }
 
-/* line 174, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 hr {
   height: 1px;
   background-color: black;
@@ -224,51 +226,51 @@ hr {
   margin-top: 80px;
 }
 
-/* line 184, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .reco {
   width: 100%;
   display: flex;
   align-items: flex-start;
   margin-top: 20px;
 }
-/* line 189, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 .reco img {
   width: 150px;
   height: 200px;
   object-fit: cover;
 }
-/* line 194, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .reco div {
   margin-left: 30px;
 }
-/* line 196, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .reco div h3 {
   margin: 0;
 }
-/* line 199, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .reco div h4 {
   font-weight: 100;
   font-size: .8em;
   margin: 0;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .preview {
   display: flex;
   background-color: #EEE;
   margin: 70px 0;
 }
-/* line 210, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .preview img {
   height: 100%;
   width: 300px;
   object-fit: fill;
 }
-/* line 215, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .preview div {
   padding: 20px 40px;
 }
-/* line 217, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .preview div h3 {
   font-size: 1.5em;
 }
